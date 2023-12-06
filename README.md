@@ -47,3 +47,5 @@ The primary goal of this project is to automate the testing of Vezeeta's website
 6. GitHub as Version Control System (VCS)
 
 Feel free to explore the codebase to understand the test cases and their implementation details.
+
+For recorded execution check this link: https://youtu.be/XxU1kez7Q_E?si=6F4xCxXn_r-9Eoa9 
