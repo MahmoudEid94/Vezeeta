@@ -12,7 +12,7 @@ import static org.testng.Assert.assertTrue;
 public class ResultTests extends BaseTest{
 
     @Test (dataProvider = "Sorting Data", groups = {"Smoke","Regression"})
-    public void testIncreasingSorting_POS(String speciality , String city, String order) throws InterruptedException {
+    public void testSorting_POS(String speciality , String city, String order) throws InterruptedException {
         AccountSearch accountSearch = homePage.clickLogin().completeLogin();
         assertEquals(accountSearch.getAccountName(),"MAHMOUD","Login Failed");
         accountSearch.selectSpeciality(speciality);
