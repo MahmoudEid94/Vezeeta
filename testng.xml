@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/8417/Desktop/Selinum/workspace/Vezeeta">
+        <classes>
+            <class name="tests.LoginTests">
+                <methods>
+                    <include name="testSuccessfulLogin"/>
+                    <include name="testInvalidLogin"/>
+                </methods>
+            </class>
+            <class name="tests.RegisterTests">
+                <methods>
+                    <include name="testDuplicateUser_NEG"/>
+                </methods>
+            </class>
+            <class name="tests.BookingTests">
+                <methods>
+                    <include name="testSuccessfulSlotBooking"/>
+                </methods>
+            </class>
+            <class name="tests.ResultTests">
+                <methods>
+                    <include name="testIncreasingSorting_POS"/>
+                    <include name="testOpenRandomDrPage"/>
+                </methods>
+            </class>
+            <class name="tests.SearchTests">
+                <methods>
+                    <include name="testSearchByDifferentCriteria"/>
+                    <include name="testSearchByDifferentCriteria_Neg"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
