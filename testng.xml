@@ -21,7 +21,7 @@
             </class>
             <class name="tests.ResultTests">
                 <methods>
-                    <include name="testIncreasingSorting_POS"/>
+                    <include name="testSorting_POS"/>
                     <include name="testOpenRandomDrPage"/>
                 </methods>
             </class>
